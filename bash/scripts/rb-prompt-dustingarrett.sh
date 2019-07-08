@@ -6,7 +6,6 @@
 # This script allows you to see the active ruby version in your prompt.
 # This assumes you use `rb`: https://github.com/redding/rb
 #
-
 __rb_ps1 ()
 {
   local printf_format="${1}"

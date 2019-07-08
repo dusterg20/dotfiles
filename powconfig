@@ -1,4 +1,0 @@
-export POW_DOMAINS=dev,local,test
-export POW_TIMEOUT=600
-export POW_WORKERS=5
-

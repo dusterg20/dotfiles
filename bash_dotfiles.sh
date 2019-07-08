@@ -25,12 +25,6 @@ if [ -f ~/.bash/ruby.sh ]; then
   . ~/.bash/ruby.sh
 fi
 
-# Python stuff
-# - pythonrc
-if [ -f ~/.bash/python.sh ]; then
-  . ~/.bash/python.sh
-fi
-
 # Aliases
 if [ -f ~/.bash/aliases.sh ]; then
   . ~/.bash/aliases.sh
@@ -39,9 +33,4 @@ fi
 # Custom PS1
 if [ -f ~/.bash/ps1.sh ]; then
   . ~/.bash/ps1.sh
-fi
-
-# Explain Shell
-if [ -f ~/.bash/explain.sh ]; then
-  . ~/.bash/explain.sh
 fi

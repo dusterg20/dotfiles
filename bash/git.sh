@@ -6,8 +6,8 @@ fi
 
 # git prompt stuff
 
-if [ -f ~/.bash/scripts/git-prompt-kellyredding.sh ]; then
-  . ~/.bash/scripts/git-prompt-kellyredding.sh
+if [ -f ~/.bash/scripts/git-prompt-dustingarrett.sh ]; then
+  . ~/.bash/scripts/git-prompt-dustingarrett.sh
 fi
 export GIT_PS1_SHOWDIRTYSTATE=true
 export GIT_PS1_SHOWSTASHSTATE=true

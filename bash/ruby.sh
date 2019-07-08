@@ -5,21 +5,20 @@ if command -v rb &>/dev/null; then
 fi
 
 # rb status prompt stuff
-
-if [ -f ~/.bash/scripts/rb-prompt-kellyredding.sh ]; then
-  . ~/.bash/scripts/rb-prompt-kellyredding.sh
+if [ -f ~/.bash/scripts/rb-prompt-dustingarrett.sh ]; then
+  . ~/.bash/scripts/rb-prompt-dustingarrett.sh
 fi
 
 # gem completion
 
-if [ -f ~/.bash/scripts/gem-completion-kellyredding.sh ]; then
-  . ~/.bash/scripts/gem-completion-kellyredding.sh
+if [ -f ~/.bash/scripts/gem-completion-dustingarrett.sh ]; then
+  . ~/.bash/scripts/gem-completion-dustingarrett.sh
 fi
 
 # grb completion
 
-if [ -f ~/.bash/scripts/grb-completion-kellyredding.sh ]; then
-  . ~/.bash/scripts/grb-completion-kellyredding.sh
+if [ -f ~/.bash/scripts/grb-completion-dustingarrett.sh ]; then
+  . ~/.bash/scripts/grb-completion-dustingarrett.sh
 fi
 
 # assert individually
