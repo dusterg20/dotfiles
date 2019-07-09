@@ -10,7 +10,7 @@ if [ -f ~/.bash/colors.sh ]; then
       PS1=$PS1"\[$bldgrn\]\u@\h\[$txtrst\]:"  #    user@host: in green, bold
     fi
 
-    PS1=$PS1"\[$bldylw\]\w\[$txtrst\]"        # => pwd (yellow, bold)
+    PS1=$PS1"\[$bldpur\]\w\[$txtrst\]"        # => pwd (yellow, bold)
 
     PS1=$PS1'$(__git_ps1 "[\[$txtgrn\]%s\[$txtred\]%s\[$txtcyn\]%s\[$txtylw\]%s\[$txtrst\]]")'
                                               # => [in brackets]      (default color)...

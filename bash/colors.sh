@@ -38,4 +38,6 @@ txtrst='\033[00m'   # Text Reset
 # yellow dirs, green exec, cyan sym links, rest defaulted
 # man ls for the details
 export CLICOLOR=true
-export LSCOLORS=dxgxfxexcxegedabagacad
+
+# custom LSCOLORS (Magenta directory listings)
+export LSCOLORS=Fxgxfxexcxegedabagacad
