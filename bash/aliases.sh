@@ -13,6 +13,7 @@ alias shrugc='echo "¯\_(ツ)_/¯" | pbcopy'
 alias shrugcc='echo "¯\\\\\_(ツ)_/¯" | pbcopy'
 alias prods='ssh capstan@capstan-master-support.stonecroptech.com'
 alias stags='ssh capstan@capstan-staging-dj.stonecroptech.com'
+alias badger='cd /Users/dustingarrett/projects/stonecroptech/badger/'
 
 alias irb="pry"
 alias pry="pry --simple-prompt"
