@@ -4,7 +4,7 @@ alias l='ls -lhF'
 alias ll='ls -lahF'
 alias ..='cd ..'
 
-alias gl="git log --graph --pretty='%C(red)%h%Creset -%C(auto)%d%Creset %s %Cgreen(%ar) %C(bold blue)<%an>%Creset'"
+alias gl="git log --graph --pretty='%C(bold blue)%h%Creset -%C(auto)%d%Creset %s %Cgreen(%ar) %C(bold yellow)<%an>%Creset'"
 alias plz='sudo $(history -p \!\!)'
 alias path='echo -e ${PATH//:/\\\n}'
 alias targz='tar xzvf'
