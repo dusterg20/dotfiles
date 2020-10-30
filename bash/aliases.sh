@@ -12,11 +12,10 @@ alias reload='source ~/.bash_profile'
 alias pwdc='pwd | pbcopy'
 alias shrugc='echo "¯\_(ツ)_/¯" | pbcopy'
 alias shrugcc='echo "¯\\\\\_(ツ)_/¯" | pbcopy'
-alias prods='ssh capstan@capstan-master-support.stonecroptech.com'
-alias stags='ssh capstan@capstan-staging-dj.stonecroptech.com'
+
+alias get_idf='. $HOME/esp/esp-idf/export.sh'
 alias badger='cd /Users/dustingarrett/projects/stonecroptech/badger/'
 alias homeauto='cd /Users/dustingarrett/projects/rails_framework'
-alias prodsac='ssh capstan@10.221.99.184'
 
 alias irb="pry"
 alias pry="pry --simple-prompt"
